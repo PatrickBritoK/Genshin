@@ -16,7 +16,7 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80px;
+  min-height: 10vh;
   background-color: rgb(70, 130, 180);
 `;
 
@@ -46,7 +46,9 @@ export const Rotas = styled.div`
   }
 `;
 
-export const Outro = styled.h1`
+export const Outro = styled.a`
+  text-decoration: none;
+  font-size: 25px;
   color: white;
   margin-right: 20px;
   transition: 1s;
@@ -59,9 +61,4 @@ export const Outro = styled.h1`
 export const DiscordIcon = styled(FaDiscord)`
   color: #00bfff;
   margin-bottom: -5px;
-`;
-
-export const Discord = styled.a`
-  text-decoration: none;
-  
 `;

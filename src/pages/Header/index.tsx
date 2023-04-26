@@ -6,7 +6,6 @@ import {
   Rotas,
   Outro,
   DiscordIcon,
-  Discord,
 } from "./styles";
 
 export const Header = () => {
@@ -23,11 +22,9 @@ export const Header = () => {
           <Link to={"contatos"}>Contatos</Link>
           <Link to={"lojas"}>Lojas</Link>
         </Rotas>
-        <Discord href="https://github.com/PatrickBritoK" target="_blank">
-          <Outro>
+          <Outro href="https://github.com/PatrickBritoK" target="_blank">
             Discord <DiscordIcon />
           </Outro>
-        </Discord>
         <Outlet />
       </Container>
     </>
