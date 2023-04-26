@@ -5,6 +5,7 @@ import { Sobre } from "./pages/Sobre";
 import { Header } from "./pages/Header";
 import { Contatos } from "./pages/Contatos/index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Lojas } from "./pages/Lojas";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         path: "contatos",
         element: <Contatos />,
       },
+      {
+        path: "lojas",
+        element: <Lojas/>
+      }
     ],
   },
 ]);

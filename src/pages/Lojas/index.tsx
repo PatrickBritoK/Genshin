@@ -1,9 +1,9 @@
 import { Caixa, Titulo } from "./styles";
 
-export const Contatos = () => {
+export const Lojas = () => {
   return (
     <Caixa>
-      <Titulo>Nosso Contatos</Titulo>
+      <Titulo>Nossas Lojas</Titulo>
     </Caixa>
   );
 };

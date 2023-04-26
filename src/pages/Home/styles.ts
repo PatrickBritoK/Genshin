@@ -1,14 +1,4 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`;
 
 export const Caixa = styled.div`
   width: 1200px;
@@ -46,15 +36,15 @@ export const Textos = styled.p`
 export const Cards = styled.div`
   display: flex;
   gap: 20px;
-  
 `;
 
 export const Card = styled.div`
   width: 200px;
   height: 200px;
-  background-color: #00BFFF;
+  background-color: #00bfff;
 `;
 
 export const TextCard = styled.p`
   color: white;
+  text-align: center;
 `;
