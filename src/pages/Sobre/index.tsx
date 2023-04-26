@@ -1,4 +1,4 @@
-import { Titulo, Caixa, GlobalStyle } from "./styles";
+import { Titulo, Caixa} from "./styles";
 
 export const Sobre = () => {
   return (

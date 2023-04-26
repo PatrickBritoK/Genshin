@@ -2,7 +2,6 @@ import { Link, Outlet } from "react-router-dom";
 import {
   Container,
   Logo,
-  GlobalStyle,
   Rotas,
   Outro,
   DiscordIcon,
@@ -12,7 +11,6 @@ export const Header = () => {
   return (
     <>
       <Container>
-        <GlobalStyle />
         <Link to={"/"}>
           <Logo src="./ceu.png" />
         </Link>

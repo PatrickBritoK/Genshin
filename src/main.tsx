@@ -7,6 +7,8 @@ import { Contatos } from "./pages/Contatos/index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Lojas } from "./pages/Lojas";
 
+import { GlobalStyle } from "./pages/Header/styles";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,14 +32,15 @@ const router = createBrowserRouter([
       },
       {
         path: "lojas",
-        element: <Lojas/>
-      }
+        element: <Lojas />,
+      },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
+    <GlobalStyle />
     <RouterProvider router={router} />
   </React.StrictMode>
 );
