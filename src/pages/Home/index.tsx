@@ -8,6 +8,7 @@ import {
   IconFire,
   IconSparks,
   IconFlower,
+  Text,
 } from "./styles";
 
 export const HomePage = () => {
@@ -31,16 +32,19 @@ export const HomePage = () => {
           <TextCard>
             <IconFire />
           </TextCard>
+          <Text>GiFrostfire</Text>
         </Card>
         <Card>
           <TextCard>
             <IconSparks />
           </TextCard>
+          <Text>GiLaserSparks</Text>
         </Card>
         <Card>
           <TextCard>
             <IconFlower />
           </TextCard>
+          <Text>GiSpotedFlower</Text>
         </Card>
       </Cards>
     </Caixa>

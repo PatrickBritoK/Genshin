@@ -40,10 +40,15 @@ export const Cards = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: #4169e1;
   border-radius: 20px;
+  transition: 0.5s;
+  
+  :hover {
+    box-shadow: 0px 10px 12px -4px rgba(0,0,0,0.75);
+  }
 `;
 
 export const TextCard = styled.p`
@@ -61,4 +66,9 @@ export const IconSparks = styled(GiLaserSparks)`
 
 export const IconFlower = styled(GiSpotedFlower)`
   scale: 1.5;
+`;
+
+export const Text = styled.p`
+  color: white;
+  text-align: center;
 `;
