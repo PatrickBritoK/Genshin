@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GiFrostfire, GiLaserSparks, GiSpotedFlower } from "react-icons/gi";
 
 export const Caixa = styled.div`
   width: 1200px;
@@ -36,18 +37,28 @@ export const Textos = styled.p`
 export const Cards = styled.div`
   display: flex;
   gap: 20px;
-  
 `;
 
 export const Card = styled.div`
   width: 200px;
   height: 200px;
-  background-color: #4169E1;
+  background-color: #4169e1;
   border-radius: 20px;
-  
 `;
 
 export const TextCard = styled.p`
   color: white;
   text-align: center;
+`;
+
+export const IconFire = styled(GiFrostfire)`
+  scale: 1.5;
+`;
+
+export const IconSparks = styled(GiLaserSparks)`
+  scale: 1.5;
+`;
+
+export const IconFlower = styled(GiSpotedFlower)`
+  scale: 1.5;
 `;

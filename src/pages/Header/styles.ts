@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { FaDiscord } from "react-icons/fa";
 
+
 export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Open Sans', sans-serif;
@@ -31,6 +32,7 @@ export const Rotas = styled.div`
   align-items: center;
   justify-content: flex-end;
   gap: 20px;
+  user-select: none;
 
   a {
     font-size: 25px;
@@ -47,6 +49,7 @@ export const Rotas = styled.div`
 `;
 
 export const Outro = styled.a`
+  user-select: none;
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -61,4 +64,5 @@ export const Outro = styled.a`
 export const DiscordIcon = styled(FaDiscord)`
   color: #00bfff;
   margin-bottom: -5px;
+  scale: 1.2;
 `;

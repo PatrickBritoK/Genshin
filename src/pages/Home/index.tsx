@@ -5,10 +5,10 @@ import {
   Cards,
   Card,
   TextCard,
+  IconFire,
+  IconSparks,
+  IconFlower,
 } from "./styles";
-
-import { FaReact } from 'react-icons/fa';
-
 
 export const HomePage = () => {
   return (
@@ -28,13 +28,19 @@ export const HomePage = () => {
       </Textos>
       <Cards>
         <Card>
-          <TextCard>Teste <FaReact /></TextCard>
+          <TextCard>
+            <IconFire />
+          </TextCard>
         </Card>
         <Card>
-          <TextCard>Teste</TextCard>
+          <TextCard>
+            <IconSparks />
+          </TextCard>
         </Card>
         <Card>
-          <TextCard>Teste</TextCard>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
         </Card>
       </Cards>
     </Caixa>
