@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Caixa = styled.div`
   width: 1200px;
-  height: auto;
+  height: 500px;
   background-color: rgb(70, 130, 180);
   position: absolute;
-  margin-top: 550px;
+  margin-top: 650px;
   margin-left: 200px;
   border-radius: 20px;
   display: flex;
@@ -36,12 +36,15 @@ export const Textos = styled.p`
 export const Cards = styled.div`
   display: flex;
   gap: 20px;
+  
 `;
 
 export const Card = styled.div`
   width: 200px;
   height: 200px;
-  background-color: #00bfff;
+  background-color: #4169E1;
+  border-radius: 20px;
+  
 `;
 
 export const TextCard = styled.p`

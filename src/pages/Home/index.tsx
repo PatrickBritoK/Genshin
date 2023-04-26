@@ -1,6 +1,5 @@
 import {
   Titulo,
-  GlobalStyle,
   Caixa,
   Textos,
   Cards,
@@ -8,10 +7,12 @@ import {
   TextCard,
 } from "./styles";
 
+import { FaReact } from 'react-icons/fa';
+
+
 export const HomePage = () => {
   return (
     <Caixa>
-      <GlobalStyle />
       <Titulo>Bem vindo</Titulo>
       <Textos>
         Usamos a base decimal para representar nossos números, com caracteres
@@ -27,7 +28,7 @@ export const HomePage = () => {
       </Textos>
       <Cards>
         <Card>
-          <TextCard>Teste</TextCard>
+          <TextCard>Teste <FaReact /></TextCard>
         </Card>
         <Card>
           <TextCard>Teste</TextCard>
