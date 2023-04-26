@@ -9,7 +9,7 @@ export const Header = () => {
         <GlobalStyle />
         <Logo src="./ceu.png" />
         <Rotas>
-          <Link to={"home"}>Inicio</Link>
+          <Link to={"home"}>Home</Link>
           <Link to={"sobre"}>Sobre</Link>
           <Link to={"contatos"}>Contatos</Link>
         </Rotas>

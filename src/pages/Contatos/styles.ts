@@ -14,13 +14,11 @@ export const Caixa = styled.div`
   width: 1200px;
   height: auto;
   background-color: rgb(70,130,180);
-  /* margin: 0 auto;
-  margin-top: 50px; */
   position: absolute;
-  top: 200px;
+  margin-top: 250px;
+  margin-left: 200px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 `;

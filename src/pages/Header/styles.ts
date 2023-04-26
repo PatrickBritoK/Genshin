@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: crimson;
   }
 `;
 
