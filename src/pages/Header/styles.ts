@@ -9,24 +9,26 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 80px;
-  background-color: crimson;
+  background-color: rgb(70,130,180);
 `;
 
 export const Logo = styled.img`
-  width: 120px;
+  width: 70px;
   height: 70px;
-  position: absolute;
   margin: 5px;
 `;
 
 export const Rotas = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
   gap: 20px;
-  justify-content: center;
-  padding-top: 30px;
 
   a {
     font-size: 25px;
@@ -36,30 +38,13 @@ export const Rotas = styled.div`
     transition: 1s;
 
     :hover {
-      color: #00d38c;
+      color: #00BFFF;
       scale: 1.2;
     }
   }
 `;
 
-export const Cadastro = styled.div`
-  display: flex;
-  justify-content: end;
-  gap: 10px;
-`;
-
-export const Botao = styled.button`
-  width: 90px;
-  height: 25px;
-  background-color: white !important;
-  border: none;
-  border-radius: 10px;
-  position: relative;
-  bottom: 25px;
-  right: 25px;
-  transition: 0.7s;
-
-  :hover {
-    background-color: #00d38c !important;
-  }
+export const Outro = styled.h1`
+  color: black;
+  margin-right: 20px;
 `;

@@ -11,15 +11,32 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Caixa = styled.div`
-  width: 500px;
-  height: 500px;
-  background-color: blue;
-  display: flex;
+  width: 1200px;
+  height: auto;
+  background-color: rgb(70,130,180);
   margin: 0 auto;
-  justify-content: center;
+  position: absolute;
+  top: 200px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 `;
 
-export const Container = styled.p`
-  color: blue;
+export const Titulo = styled.h1`
+  user-select: none;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  font-weight: 700;
+
+  :hover {
+    color: #00BFFF;
+  }
+`;
+
+export const Textos = styled.p`
+  color: white;
+
 `;

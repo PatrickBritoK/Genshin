@@ -11,11 +11,16 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Caixa = styled.div`
-  width: 500px;
-  height: 500px;
-  background-color: blue;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  width: 1200px;
+  height: auto;
+  background-color: rgb(70,130,180);
+  /* margin: 0 auto;
+  margin-top: 50px; */
+  position: absolute;
+  top: 200px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 `;

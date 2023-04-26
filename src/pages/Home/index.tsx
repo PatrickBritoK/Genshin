@@ -1,10 +1,11 @@
-import { Container, GlobalStyle, Caixa } from "./styles";
+import { Titulo, GlobalStyle, Caixa, Textos } from "./styles";
 
 export const HomePage = () => {
   return (
     <Caixa>
       <GlobalStyle />
-      <h1>teste</h1>
+      <Titulo>Bem vindo</Titulo>
+      <Textos>Blablablablablablabla</Textos>
     </Caixa>
   );
 };
