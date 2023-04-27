@@ -39,8 +39,6 @@ export const HomePage = () => {
           <Text><Pyro src="./elements/pyro.png" />{lista[1]}</Text>
           </Alinhamento>
           <Personagem src="./personagens/amber.png" />
-          
-          
         </Card>
 
         <Card id="cryo">

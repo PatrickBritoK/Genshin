@@ -140,6 +140,7 @@ export const Card = styled.div`
   cursor: pointer;
 
   :hover {
+    scale: 1.05;
     ${props => props.id === 'anemo' && 'box-shadow: 0px 10px 12px -4px #75c3aa;'}
     ${props => props.id === 'pyro' && 'box-shadow: 0px 10px 12px -4px #d91305;'}
     ${props => props.id === 'geo' && 'box-shadow: 0px 10px 12px -4px #f5b532;'}
@@ -171,6 +172,44 @@ export const Card = styled.div`
 
 export const Personagem = styled.img`
   width: 86px;
+
+  @media (max-width: 1190px) {
+    max-width: 66px;
+  }
+
+  /* @media (max-width: 1010px) {
+    max-width: 800px;
+  }
+
+  @media (max-width: 900px) {
+    max-width: 700px;
+  }
+
+  @media (max-width: 830px) {
+    max-width: 650px;
+  }
+
+  @media (max-width: 765px) {
+    max-width: 600px;
+    margin-top: 900px;
+  }
+
+  @media (max-width: 730px) {
+    max-width: 550px;
+  }
+
+  @media (max-width: 690px) {
+    max-width: 500px;
+  }
+
+  @media (max-width: 630px) {
+    max-width: 450px;
+  }
+
+  @media (max-width: 590px) {
+    max-width: 450px;
+    margin-top: 900px;
+  } */
 `;
 
 export const Alinhamento = styled.p`
