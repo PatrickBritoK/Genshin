@@ -94,6 +94,22 @@ export const Titulo = styled.h1`
   }
 `;
 
+export const Pesquisar = styled.input`
+color: white;
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #4169e1;
+  border: none;
+  border-radius: 20px;
+  padding-left: 15px;
+  outline: 0;
+
+  ::placeholder {
+    color: white;
+  }
+`;
+
 export const Textos = styled.p`
   color: white;
   display: flex;
@@ -120,9 +136,16 @@ export const Card = styled.div`
   background-color: #4169e1;
   border-radius: 20px;
   transition: 0.5s;
+  cursor: pointer;
 
   :hover {
-    box-shadow: 0px 10px 12px -4px rgba(0, 0, 0, 0.75);
+    ${props => props.id === 'anemo' && 'box-shadow: 0px 10px 12px -4px #75c3aa;'}
+    ${props => props.id === 'pyro' && 'box-shadow: 0px 10px 12px -4px #d91305;'}
+    ${props => props.id === 'geo' && 'box-shadow: 0px 10px 12px -4px #f5b532;'}
+    ${props => props.id === 'hydro' && 'box-shadow: 0px 10px 12px -4px #4cc2f1;'}
+    ${props => props.id === 'dendro' && 'box-shadow: 0px 10px 12px -4px #a2c53f;'}
+    ${props => props.id === 'eletro' && 'box-shadow: 0px 12px 12px -4px #9184cb;'}
+    ${props => props.id === 'cryo' && 'box-shadow: 0px 10px 12px -4px #89ecf6;'}
   }
 
   @media (max-width: 1190px) {

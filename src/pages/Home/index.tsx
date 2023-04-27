@@ -1,17 +1,29 @@
-import { Titulo, Caixa, Textos, Cards, Card, TextCard, Text } from "./styles";
-
 import {
-  IconFire,
-  IconSparks,
-  IconFlower,
-  IconChanterelles,
+  Titulo,
+  Caixa,
+  Textos,
+  Cards,
+  Card,
+  TextCard,
+  Text,
+  Pesquisar,
+} from "./styles";
+import {
+  Anemo,
+  Pyro,
+  Cryo,
+  Geo,
+  Dendro,
+  Eletro,
+  Hydro,
 } from "../../components/icons/stylesIcons";
 
 export const HomePage = () => {
   return (
     <Caixa>
       <Titulo>Bem vindo</Titulo>
-      <Textos>
+      <Pesquisar placeholder="Pesquisar por elemento" />
+      {/* <Textos>
         Usamos a base decimal para representar nossos números, com caracteres
         que vão de 0 a 9 e são acrescidos de novas casas quando chegam em seus
         limites. Assim sendo, os algarimsos 15 em base decimal representam o
@@ -22,80 +34,92 @@ export const HomePage = () => {
         10 hexadecimal). Neste sistema, o algarismo F representa o décimo quinto
         valor numérico, e o algarismo FF representa o ducentésimo quinquagésimo
         quinto valor (o 255 decimal).
-      </Textos>
+      </Textos> */}
       <Cards>
-        <Card>
+        <Card id="anemo">
           <TextCard>
-            <IconFire />
+            <Anemo src="./anemo.png" />
           </TextCard>
-          <Text>Caixa 1</Text>
+          <Text>Anemo</Text>
         </Card>
-        <Card>
+
+        <Card id="pyro">
           <TextCard>
-            <IconSparks />
+            <Pyro src="./pyro.png" />
           </TextCard>
-          <Text>Caixa 2</Text>
+          <Text>Pyro</Text>
         </Card>
-        <Card>
+
+        <Card id="cryo">
           <TextCard>
-            <IconFlower />
+            <Cryo src="./cryo.png" />
           </TextCard>
-          <Text>Caixa 3</Text>
+          <Text>Cryo</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconChanterelles />
+            <Geo src="./geo.png" />
           </TextCard>
-          <Text>Caixa 4</Text>
+          <Text>Geo</Text>
         </Card>
-        <Card>
+
+        <Card id="dendro">
           <TextCard>
-            <IconFlower />
+            <Dendro src="./dendro.png" />
           </TextCard>
-          <Text>Caixa 5</Text>
+          <Text>Dendro</Text>
         </Card>
-        <Card>
+
+        <Card id="eletro">
           <TextCard>
-            <IconFlower />
+            <Eletro src="./eletro.png" />
           </TextCard>
-          <Text>Caixa 6</Text>
+          <Text>Eletro</Text>
         </Card>
-        <Card>
+
+        <Card id="hydro">
           <TextCard>
-            <IconFlower />
+            <Hydro src="./hydro.png" />
           </TextCard>
-          <Text>Caixa 7</Text>
+          <Text>Hydro</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconFlower />
+            <Geo src="./geo.png" />
           </TextCard>
           <Text>Caixa 8</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconFlower />
+            <Geo src="./geo.png" />
           </TextCard>
           <Text>Caixa 9</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconFlower />
+            <Geo src="./geo.png" />
           </TextCard>
           <Text>Caixa 10</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconFlower />
+            <Geo src="./geo.png" />
           </TextCard>
           <Text>Caixa 11</Text>
         </Card>
-        <Card>
+
+        <Card id="geo">
           <TextCard>
-            <IconFlower />
+            <Geo src="./geo.png" />
           </TextCard>
           <Text>Caixa 12</Text>
         </Card>
+
       </Cards>
     </Caixa>
   );

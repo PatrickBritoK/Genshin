@@ -1,31 +1,121 @@
 import styled from "styled-components";
-import { GiFrostfire, GiLaserSparks, GiSpotedFlower,GiChanterelles } from "react-icons/gi";
 
-export const IconFire = styled(GiFrostfire)`
-  scale: 1.5;
+export const Anemo = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
 
-  @media (max-width:1100px) {
-    scale: 1.1;
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #75c3aa;
+  }
+
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
   }
 `;
 
-export const IconSparks = styled(GiLaserSparks)`
-  scale: 1.5;
-  @media (max-width:1100px) {
-    scale: 1.1;
+export const Pyro = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #d91305;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
   }
 `;
 
-export const IconFlower = styled(GiSpotedFlower)`
-  scale: 1.5;
-  @media (max-width:1100px) {
-    scale: 1.1;
+export const Cryo = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #89ecf6;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
   }
 `;
 
-export const IconChanterelles = styled(GiChanterelles)`
-  scale: 1.5;
-  @media (max-width:1100px) {
-    scale: 1.1;
+export const Geo = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #f5b532;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
+  }
+`;
+
+export const Dendro = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #a2c53f;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+
+    :hover {
+      scale: 1.3;
+    }
+  }
+`;
+
+export const Eletro = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #9184cb;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
+  }
+`;
+
+export const Hydro = styled.img`
+  width: 32px;
+  transition: 0.5s;
+  border-radius: 50%;
+
+  :hover {
+    scale: 1.5;
+    box-shadow: 0 0 15px #4cc2f1;
+  }
+  @media (max-width: 900px) {
+    width: 25px;
+    :hover {
+      scale: 1.3;
+    }
   }
 `;
