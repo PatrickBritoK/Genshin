@@ -12,6 +12,7 @@ export const Caixa = styled.div`
   align-items: center;
   flex-direction: column;
   padding-bottom: 15px;
+  text-align: center;
 
   @media (max-width: 1400px) {
     max-width: 1200px;
@@ -168,12 +169,20 @@ export const Card = styled.div`
   }
 `;
 
-export const TextCard = styled.p`
-  color: white;
+export const Personagem = styled.img`
+  width: 86px;
+`;
+
+export const Alinhamento = styled.p`
   text-align: center;
 `;
 
 export const Text = styled.p`
+font-size: 18px;
   color: white;
   text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
 `;
+

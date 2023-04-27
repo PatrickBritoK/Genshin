@@ -1,0 +1,1 @@
+export const lista = ["Venti", "Amber" ,"Ganyu"]

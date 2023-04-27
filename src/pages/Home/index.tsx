@@ -1,12 +1,13 @@
 import {
   Titulo,
   Caixa,
-  Textos,
   Cards,
   Card,
-  TextCard,
+  Textos,
+  Alinhamento,
   Text,
   Pesquisar,
+  Personagem,
 } from "./styles";
 import {
   Anemo,
@@ -17,109 +18,100 @@ import {
   Eletro,
   Hydro,
 } from "../../components/icons/stylesIcons";
+import { lista } from "../../config/logica";
 
 export const HomePage = () => {
   return (
     <Caixa>
       <Titulo>Bem vindo</Titulo>
       <Pesquisar placeholder="Pesquisar por elemento" />
-      {/* <Textos>
-        Usamos a base decimal para representar nossos números, com caracteres
-        que vão de 0 a 9 e são acrescidos de novas casas quando chegam em seus
-        limites. Assim sendo, os algarimsos 15 em base decimal representam o
-        décimo quinto valor da sequência numérica. A base hexadecimal utiliza 16
-        caracteres para representar números, com caracteres que vão de 0 a F
-        (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F), e dessa forma, o algarismo 10, na
-        base hexadecimal, representa o décimo sexto valor numérico (16 decimal =
-        10 hexadecimal). Neste sistema, o algarismo F representa o décimo quinto
-        valor numérico, e o algarismo FF representa o ducentésimo quinquagésimo
-        quinto valor (o 255 decimal).
-      </Textos> */}
+      <Textos></Textos>
       <Cards>
         <Card id="anemo">
-          <TextCard>
-            <Anemo src="./anemo.png" />
-          </TextCard>
-          <Text>Anemo</Text>
+          <Alinhamento>
+          <Text><Anemo src="./elements/anemo.png" />{lista[0]}</Text>
+          </Alinhamento>
+          <Personagem src="./personagens/venti.png" />
         </Card>
 
         <Card id="pyro">
-          <TextCard>
-            <Pyro src="./pyro.png" />
-          </TextCard>
-          <Text>Pyro</Text>
+          <Alinhamento>
+          <Text><Pyro src="./elements/pyro.png" />{lista[1]}</Text>
+          </Alinhamento>
+          <Personagem src="./personagens/amber.png" />
+          
+          
         </Card>
 
         <Card id="cryo">
-          <TextCard>
-            <Cryo src="./cryo.png" />
-          </TextCard>
-          <Text>Cryo</Text>
+          <Alinhamento>
+            <Cryo src="./elements/cryo.png" />
+          </Alinhamento>
+          <Text>{lista[2]}</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Geo</Text>
         </Card>
 
         <Card id="dendro">
-          <TextCard>
-            <Dendro src="./dendro.png" />
-          </TextCard>
+          <Alinhamento>
+            <Dendro src="./elements/dendro.png" />
+          </Alinhamento>
           <Text>Dendro</Text>
         </Card>
 
         <Card id="eletro">
-          <TextCard>
-            <Eletro src="./eletro.png" />
-          </TextCard>
+          <Alinhamento>
+            <Eletro src="./elements/eletro.png" />
+          </Alinhamento>
           <Text>Eletro</Text>
         </Card>
 
         <Card id="hydro">
-          <TextCard>
-            <Hydro src="./hydro.png" />
-          </TextCard>
+          <Alinhamento>
+            <Hydro src="./elements/hydro.png" />
+          </Alinhamento>
           <Text>Hydro</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Caixa 8</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Caixa 9</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Caixa 10</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Caixa 11</Text>
         </Card>
 
         <Card id="geo">
-          <TextCard>
-            <Geo src="./geo.png" />
-          </TextCard>
+          <Alinhamento>
+            <Geo src="./elements/geo.png" />
+          </Alinhamento>
           <Text>Caixa 12</Text>
         </Card>
-
       </Cards>
     </Caixa>
   );
