@@ -4,6 +4,7 @@ import {
   IconFire,
   IconSparks,
   IconFlower,
+  IconChanterelles,
 } from "../../components/icons/stylesIcons";
 
 export const HomePage = () => {
@@ -43,12 +44,10 @@ export const HomePage = () => {
         </Card>
         <Card>
           <TextCard>
-            <IconFlower />
+            <IconChanterelles />
           </TextCard>
           <Text>Caixa 4</Text>
         </Card>
-      </Cards>
-      <Cards>
         <Card>
           <TextCard>
             <IconFlower />
@@ -72,6 +71,30 @@ export const HomePage = () => {
             <IconFlower />
           </TextCard>
           <Text>Caixa 8</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 9</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 10</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 11</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 12</Text>
         </Card>
       </Cards>
     </Caixa>
