@@ -1,16 +1,5 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
 import { FaDiscord } from "react-icons/fa";
-
-
-export const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #4169E1;
-  }
-`;
 
 export const Container = styled.header`
   display: flex;

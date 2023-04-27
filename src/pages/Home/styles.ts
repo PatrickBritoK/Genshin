@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import { GiFrostfire, GiLaserSparks, GiSpotedFlower } from "react-icons/gi";
 
 export const Caixa = styled.div`
   width: 1200px;
-  height: 500px;
+  height: 1000px;
   background-color: rgb(70, 130, 180);
   position: absolute;
-  margin-top: 650px;
+  margin-top: 1200px;
   margin-left: 200px;
   border-radius: 20px;
   display: flex;
@@ -37,6 +36,7 @@ export const Textos = styled.p`
 export const Cards = styled.div`
   display: flex;
   gap: 20px;
+  margin-top: 16px;
 `;
 
 export const Card = styled.div`
@@ -45,6 +45,7 @@ export const Card = styled.div`
   background-color: #4169e1;
   border-radius: 20px;
   transition: 0.5s;
+  flex-direction: column;
   
   :hover {
     box-shadow: 0px 10px 12px -4px rgba(0,0,0,0.75);
@@ -54,18 +55,6 @@ export const Card = styled.div`
 export const TextCard = styled.p`
   color: white;
   text-align: center;
-`;
-
-export const IconFire = styled(GiFrostfire)`
-  scale: 1.5;
-`;
-
-export const IconSparks = styled(GiLaserSparks)`
-  scale: 1.5;
-`;
-
-export const IconFlower = styled(GiSpotedFlower)`
-  scale: 1.5;
 `;
 
 export const Text = styled.p`

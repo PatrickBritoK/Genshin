@@ -1,15 +1,10 @@
+import { Titulo, Caixa, Textos, Cards, Card, TextCard, Text } from "./styles";
+
 import {
-  Titulo,
-  Caixa,
-  Textos,
-  Cards,
-  Card,
-  TextCard,
   IconFire,
   IconSparks,
   IconFlower,
-  Text,
-} from "./styles";
+} from "../../components/icons/stylesIcons";
 
 export const HomePage = () => {
   return (
@@ -32,19 +27,51 @@ export const HomePage = () => {
           <TextCard>
             <IconFire />
           </TextCard>
-          <Text>GiFrostfire</Text>
+          <Text>Caixa 1</Text>
         </Card>
         <Card>
           <TextCard>
             <IconSparks />
           </TextCard>
-          <Text>GiLaserSparks</Text>
+          <Text>Caixa 2</Text>
         </Card>
         <Card>
           <TextCard>
             <IconFlower />
           </TextCard>
-          <Text>GiSpotedFlower</Text>
+          <Text>Caixa 3</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 4</Text>
+        </Card>
+      </Cards>
+      <Cards>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 5</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 6</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 7</Text>
+        </Card>
+        <Card>
+          <TextCard>
+            <IconFlower />
+          </TextCard>
+          <Text>Caixa 8</Text>
         </Card>
       </Cards>
     </Caixa>

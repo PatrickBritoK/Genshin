@@ -7,7 +7,7 @@ import { Contatos } from "./pages/Contatos/index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Lojas } from "./pages/Lojas";
 
-import { GlobalStyle } from "./pages/Header/styles";
+import { GlobalStyle } from "./components/global/stylesGlobal";
 
 const router = createBrowserRouter([
   {
