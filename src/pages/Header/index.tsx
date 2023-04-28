@@ -12,7 +12,7 @@ export const Header = () => {
     <>
       <Container>
         <Link to={"/"}>
-          <Logo src="./ceu.png" />
+          {/* <Logo src="./ceu.png" /> */}
         </Link>
         <Rotas>
           <Link to={"home"}>Home</Link>

@@ -36,7 +36,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Albedo.png" />
         </Card>
-
         <Card id="dendro">
           <Alinhamento>
             <Text>
@@ -46,7 +45,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Alhaitham.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -56,7 +54,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Aloy.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -66,7 +63,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/amber.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -76,7 +72,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Ayaka.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -86,7 +81,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Ayato.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -96,7 +90,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Barbara.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -106,7 +99,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Beidou.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -116,7 +108,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Bennett.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -126,7 +117,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Candace.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -136,7 +126,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Childe.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -146,7 +135,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Chongyun.png" />
         </Card>
-
         <Card id="dendro">
           <Alinhamento>
             <Text>
@@ -156,7 +144,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Collei.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -166,7 +153,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Cyno.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -176,7 +162,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Dehya.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -186,17 +171,15 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Diluc.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
-              <Cryo src="./elements/cyro.png" />
+              <Cryo src="./elements/cryo.png" />
               {lista[16]}
             </Text>
           </Alinhamento>
           <Personagem src="./personagens/Diona.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -206,7 +189,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Dori.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -216,7 +198,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Eula.png" />
         </Card>
-
         <Card id="anemo">
           <Alinhamento>
             <Text>
@@ -226,7 +207,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Faruzan.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -234,19 +214,17 @@ export const HomePage = () => {
               {lista[20]}
             </Text>
           </Alinhamento>
-          <Personagem src="./personagens/Fishcl.png" />
+          <Personagem src="./personagens/Fischl.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
-              <Cryo src="./elements/cyro.png" />
+              <Cryo src="./elements/cryo.png" />
               {lista[21]}
             </Text>
           </Alinhamento>
           <Personagem src="./personagens/Ganyu.png" />
         </Card>
-
         <Card id="geo">
           <Alinhamento>
             <Text>
@@ -256,7 +234,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Gorou.png" />
         </Card>
-
         <Card id="anemo">
           <Alinhamento>
             <Text>
@@ -266,7 +243,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Heizou.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -276,7 +252,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Hu Tao.png" />
         </Card>
-
         <Card id="geo">
           <Alinhamento>
             <Text>
@@ -286,7 +261,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Itto.png" />
         </Card>
-
         <Card id="anemo">
           <Alinhamento>
             <Text>
@@ -296,7 +270,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Jean.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -306,7 +279,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Kaeya.png" />
         </Card>
-
         <Card id="anemo">
           <Alinhamento>
             <Text>
@@ -316,7 +288,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Kazuha.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -326,7 +297,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Keqing.png" />
         </Card>
-
         <Card id="pyro">
           <Alinhamento>
             <Text>
@@ -336,7 +306,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Klee.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -346,7 +315,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Kokomi.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -356,7 +324,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Kuki Shinobu.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -366,7 +333,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Layla.png" />
         </Card>
-
         <Card id="eletro">
           <Alinhamento>
             <Text>
@@ -376,7 +342,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Lisa.png" />
         </Card>
-
         <Card id="cryo">
           <Alinhamento>
             <Text>
@@ -386,7 +351,6 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Mika.png" />
         </Card>
-
         <Card id="hydro">
           <Alinhamento>
             <Text>
@@ -396,6 +360,286 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Mona.png" />
         </Card>
+        <Card id="dendro">
+          <Alinhamento>
+            <Text>
+              <Dendro src="./elements/dendro.png" />
+              {lista[37]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Nahida.png" />
+        </Card>
+        <Card id="hydro">
+          <Alinhamento>
+            <Text>
+              <Hydro src="./elements/hydro.png" />
+              {lista[38]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Nilou.png" />
+        </Card>
+        <Card id="geo">
+          <Alinhamento>
+            <Text>
+              <Geo src="./elements/geo.png" />
+              {lista[39]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Ningguang.png" />
+        </Card>
+        <Card id="geo">
+          <Alinhamento>
+            <Text>
+              <Geo src="./elements/geo.png" />
+              {lista[40]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Noelle.png" />
+        </Card>
+        <Card id="cryo">
+          <Alinhamento>
+            <Text>
+              <Cryo src="./elements/cryo.png" />
+              {lista[41]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Qiqi.png" />
+        </Card>
+        <Card id="eletro">
+          <Alinhamento>
+            <Text>
+              <Eletro src="./elements/eletro.png" />
+              {lista[42]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Raiden.png" />
+        </Card>
+        <Card id="eletro">
+          <Alinhamento>
+            <Text>
+              <Eletro src="./elements/eletro.png" />
+              {lista[43]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Razor.png" />
+        </Card>
+        <Card id="cryo">
+          <Alinhamento>
+            <Text>
+              <Cryo src="./elements/cryo.png" />
+              {lista[44]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Rosaria.png" />
+        </Card>
+        <Card id="eletro">
+          <Alinhamento>
+            <Text>
+              <Eletro src="./elements/eletro.png" />
+              {lista[45]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Sara.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[46]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Sayu.png" />
+        </Card>
+        <Card id="cryo">
+          <Alinhamento>
+            <Text>
+              <Cryo src="./elements/cryo.png" />
+              {lista[47]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Shenhe.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[48]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Sucrose.png" />
+        </Card>
+        <Card id="pyro">
+          <Alinhamento>
+            <Text>
+              <Pyro src="./elements/pyro.png" />
+              {lista[49]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Thoma.png" />
+        </Card>
+        <Card id="dendro">
+          <Alinhamento>
+            <Text>
+              <Dendro src="./elements/dendro.png" />
+              {lista[50]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Tighnari.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[51]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Traveler.png" />
+        </Card>
+        <Card id="dendro">
+          <Alinhamento>
+            <Text>
+              <Dendro src="./elements/dendro.png" />
+              {lista[52]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Traveler.png" />
+        </Card>
+        <Card id="eletro">
+          <Alinhamento>
+            <Text>
+              <Eletro src="./elements/eletro.png" />
+              {lista[53]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Traveler.png" />
+        </Card>
+        <Card id="geo">
+          <Alinhamento>
+            <Text>
+              <Geo src="./elements/geo.png" />
+              {lista[54]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Traveler.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[55]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Venti.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[56]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Wanderer.png" />
+        </Card>
+        <Card id="pyro">
+          <Alinhamento>
+            <Text>
+              <Pyro src="./elements/pyro.png" />
+              {lista[57]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Xiangling.png" />
+        </Card>
+        <Card id="anemo">
+          <Alinhamento>
+            <Text>
+              <Anemo src="./elements/anemo.png" />
+              {lista[58]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Xiao.png" />
+        </Card>
+        <Card id="hydro">
+          <Alinhamento>
+            <Text>
+              <Hydro src="./elements/hydro.png" />
+              {lista[59]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Xingqiu.png" />
+        </Card>
+        <Card id="pyro">
+          <Alinhamento>
+            <Text>
+              <Pyro src="./elements/pyro.png" />
+              {lista[60]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Xinyan.png" />
+        </Card>
+        <Card id="eletro">
+          <Alinhamento>
+            <Text>
+              <Eletro src="./elements/eletro.png" />
+              {lista[61]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yae Miko.png" />
+        </Card>
+        <Card id="pyro">
+          <Alinhamento>
+            <Text>
+              <Pyro src="./elements/pyro.png" />
+              {lista[62]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yanfei.png" />
+        </Card>
+        <Card id="dendro">
+          <Alinhamento>
+            <Text>
+              <Dendro src="./elements/dendro.png" />
+              {lista[63]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yaoyao.png" />
+        </Card>
+        <Card id="hydro">
+          <Alinhamento>
+            <Text>
+              <Hydro src="./elements/hydro.png" />
+              {lista[64]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yelan.png" />
+        </Card>
+        <Card id="pyro">
+          <Alinhamento>
+            <Text>
+              <Pyro src="./elements/pyro.png" />
+              {lista[65]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yoimiya.png" />
+        </Card>
+        <Card id="geo">
+          <Alinhamento>
+            <Text>
+              <Geo src="./elements/geo.png" />
+              {lista[66]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Yun Jin.png" />
+        </Card>
+        <Card id="geo">
+          <Alinhamento>
+            <Text>
+              <Geo src="./elements/geo.png" />
+              {lista[67]}
+            </Text>
+          </Alinhamento>
+          <Personagem src="./personagens/Zhongli.png" />
+        </Card>
+        
       </Cards>
     </Caixa>
   );
