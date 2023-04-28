@@ -5,7 +5,7 @@ export const Caixa = styled.div`
   height: auto;
   background-color: rgb(70, 130, 180);
   position: absolute;
-  margin-top: 700px;
+  margin-top: 1500px;
   margin-left: 200px;
   border-radius: 20px;
   display: flex;
