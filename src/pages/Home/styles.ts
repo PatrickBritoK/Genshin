@@ -96,7 +96,7 @@ export const Titulo = styled.h1`
 `;
 
 export const Pesquisar = styled.input`
-color: white;
+  color: white;
   width: 250px;
   height: 30px;
   font-size: 15px;
@@ -134,20 +134,58 @@ export const Cards = styled.div`
 export const Card = styled.div`
   width: 150px;
   height: 150px;
-  background-color: #4169e1;
+  /* background-color: #4169e1; */
   border-radius: 20px;
-  transition: 0.5s;
+  transition: 0.4s;
   cursor: pointer;
+  border: 1px solid black;
+  ${(props) =>
+    props.id === "anemo" &&
+    "background: rgb(117,195,170);background: linear-gradient(320deg, rgba(117,195,170,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "anemo5E" &&
+    "background: rgb(117,195,170);background: linear-gradient(320deg, rgba(117,195,170,1) 17%, rgba(249,168,37,1) 89%);"}
+
+  ${(props) =>
+    props.id === "pyro" &&
+    "background: rgb(217,19,5);background: linear-gradient(320deg, rgba(217,19,5,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "pyro5E" &&
+    "background: rgb(217,19,5);background: linear-gradient(320deg, rgba(217,19,5,1) 17%, rgba(249,168,37,1) 89%);"} 
+
+  ${(props) =>
+    props.id === "geo" &&
+    "background: rgb(245,181,50);background: linear-gradient(320deg, rgba(245,181,50,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "hydro" &&
+    "background: rgb(76,194,241);background: linear-gradient(320deg, rgba(76,194,241,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "dendro" &&
+    "background: rgb(162,197,63);background: linear-gradient(320deg, rgba(162,197,63,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "eletro" &&
+    "background: rgb(145,132,203);background: linear-gradient(320deg, rgba(145,132,203,1) 17%, rgba(109,23,186,1) 89%);"}
+  ${(props) =>
+    props.id === "cryo" &&
+    "background: rgb(137,236,246);background: linear-gradient(320deg, rgba(137,236,246,1) 17%, rgba(109,23,186,1) 89%);"}
+
 
   :hover {
     scale: 1.05;
-    ${props => props.id === 'anemo' && 'box-shadow: 0px 10px 12px -4px #75c3aa;'}
-    ${props => props.id === 'pyro' && 'box-shadow: 0px 10px 12px -4px #d91305;'}
-    ${props => props.id === 'geo' && 'box-shadow: 0px 10px 12px -4px #f5b532;'}
-    ${props => props.id === 'hydro' && 'box-shadow: 0px 10px 12px -4px #4cc2f1;'}
-    ${props => props.id === 'dendro' && 'box-shadow: 0px 10px 12px -4px #a2c53f;'}
-    ${props => props.id === 'eletro' && 'box-shadow: 0px 12px 12px -4px #9184cb;'}
-    ${props => props.id === 'cryo' && 'box-shadow: 0px 10px 12px -4px #89ecf6;'}
+    ${(props) =>
+      props.id === "anemo" && "box-shadow: 0px 10px 12px -4px #75c3aa;"}
+    ${(props) =>
+      props.id === "pyro" && "box-shadow: 0px 10px 12px -4px #d91305;"}
+    ${(props) =>
+      props.id === "geo" && "box-shadow: 0px 10px 12px -4px #f5b532;"}
+    ${(props) =>
+      props.id === "hydro" && "box-shadow: 0px 10px 12px -4px #4cc2f1;"}
+    ${(props) =>
+      props.id === "dendro" && "box-shadow: 0px 10px 12px -4px #a2c53f;"}
+    ${(props) =>
+      props.id === "eletro" && "box-shadow: 0px 12px 12px -4px #9184cb;"}
+    ${(props) =>
+      props.id === "cryo" && "box-shadow: 0px 10px 12px -4px #89ecf6;"}
   }
 
   @media (max-width: 1190px) {
@@ -217,11 +255,10 @@ export const Alinhamento = styled.p`
 `;
 
 export const Text = styled.p`
-font-size: 18px;
+  font-size: 18px;
   color: white;
   text-align: center;
   margin: 0;
   display: flex;
   justify-content: space-around;
 `;
-

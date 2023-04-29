@@ -19,7 +19,7 @@ export const Anemo = styled.img`
 `;
 
 export const Pyro = styled.img`
-  width: 32px;
+  width: 33.5px;
   transition: 0.5s;
   border-radius: 50%;
 
@@ -119,3 +119,4 @@ export const Hydro = styled.img`
     }
   }
 `;
+

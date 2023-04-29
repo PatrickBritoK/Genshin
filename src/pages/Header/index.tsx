@@ -20,7 +20,7 @@ export const Header = () => {
           <Link to={"contatos"}>Contatos</Link>
           <Link to={"lojas"}>Lojas</Link>
         </Rotas>
-          <Outro href="https://github.com/PatrickBritoK" target="_blank">
+          <Outro href="https://discord.gg/BPRUPqJRSW" target="_blank">
             Discord <DiscordIcon />
           </Outro>
         <Outlet />

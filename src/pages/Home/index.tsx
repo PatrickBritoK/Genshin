@@ -27,7 +27,7 @@ export const HomePage = () => {
       <Pesquisar placeholder="Pesquisar por elemento" />
       <Textos></Textos>
       <Cards>
-        <Card id="geo">
+        <Card id="geo" >
           <Alinhamento>
             <Text>
               <Geo src="./elements/geo.png" />
@@ -153,7 +153,7 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Cyno.png" />
         </Card>
-        <Card id="pyro">
+        <Card id="pyro5E">
           <Alinhamento>
             <Text>
               <Pyro src="./elements/pyro.png" />
@@ -261,7 +261,7 @@ export const HomePage = () => {
           </Alinhamento>
           <Personagem src="./personagens/Itto.png" />
         </Card>
-        <Card id="anemo">
+        <Card id="anemo5E">
           <Alinhamento>
             <Text>
               <Anemo src="./elements/anemo.png" />
