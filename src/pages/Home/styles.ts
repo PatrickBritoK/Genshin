@@ -1,82 +1,20 @@
 import styled from "styled-components";
 
 export const Caixa = styled.div`
-  max-width: 1200px;
+  width: 1000px;
   height: auto;
   background-color: rgb(70, 130, 180);
   position: absolute;
-  margin-top: 2400px;
-  margin-left: 200px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-bottom: 15px;
   text-align: center;
-
-  @media (max-width: 1400px) {
-    max-width: 1200px;
-    margin-left: 135px;
-  }
-
-  @media (max-width: 1390px) {
-    max-width: 1100px;
-    margin-left: 135px;
-  }
-
-  @media (max-width: 1308px) {
-    max-width: 1100px;
-    margin-left: 100px;
-  }
-
-  @media (max-width: 1250px) {
-    max-width: 1100px;
-    margin-left: 70px;
-  }
-
-  @media (max-width: 1190px) {
-    max-width: 1000px;
-    margin-left: 70px;
-  }
-
-  @media (max-width: 1100px) {
-    max-width: 900px;
-    margin-left: 70px;
-  }
-
-  @media (max-width: 1010px) {
-    max-width: 800px;
-  }
-
-  @media (max-width: 900px) {
-    max-width: 700px;
-  }
-
-  @media (max-width: 830px) {
-    max-width: 650px;
-  }
-
-  @media (max-width: 765px) {
-    max-width: 600px;
-    margin-top: 900px;
-  }
-
-  @media (max-width: 730px) {
-    max-width: 550px;
-  }
-
-  @media (max-width: 690px) {
-    max-width: 500px;
-  }
-
-  @media (max-width: 630px) {
-    max-width: 450px;
-  }
-
-  @media (max-width: 590px) {
-    max-width: 450px;
-    margin-top: 900px;
-  }
+  justify-content: center;
 `;
 
 export const Titulo = styled.h1`
@@ -139,7 +77,8 @@ export const Card = styled.div`
   transition: 0.4s;
   cursor: pointer;
   border: 1px solid black;
-  ${(props) =>
+  background-color: ${(props) => props.color};
+  /* ${(props) =>
     props.id === "anemo" &&
     "background: rgb(117,195,170);background: linear-gradient(320deg, rgba(117,195,170,1) 17%, rgba(109,23,186,1) 89%);"}
   ${(props) =>
@@ -167,12 +106,12 @@ export const Card = styled.div`
     "background: rgb(145,132,203);background: linear-gradient(320deg, rgba(145,132,203,1) 17%, rgba(109,23,186,1) 89%);"}
   ${(props) =>
     props.id === "cryo" &&
-    "background: rgb(137,236,246);background: linear-gradient(320deg, rgba(137,236,246,1) 17%, rgba(109,23,186,1) 89%);"}
+    "background: rgb(137,236,246);background: linear-gradient(320deg, rgba(137,236,246,1) 17%, rgba(109,23,186,1) 89%);"} */
 
 
   :hover {
     scale: 1.05;
-    ${(props) =>
+    /* ${(props) =>
       props.id === "anemo" && "box-shadow: 0px 10px 12px -4px #75c3aa;"}
     ${(props) =>
       props.id === "pyro" && "box-shadow: 0px 10px 12px -4px #d91305;"}
@@ -185,7 +124,7 @@ export const Card = styled.div`
     ${(props) =>
       props.id === "eletro" && "box-shadow: 0px 12px 12px -4px #9184cb;"}
     ${(props) =>
-      props.id === "cryo" && "box-shadow: 0px 10px 12px -4px #89ecf6;"}
+      props.id === "cryo" && "box-shadow: 0px 10px 12px -4px #89ecf6;"} */
   }
 
   @media (max-width: 1190px) {
