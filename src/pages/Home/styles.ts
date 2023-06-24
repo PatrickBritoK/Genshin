@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Caixa = styled.div`
   width: 1000px;
   height: auto;
-  background-color: rgb(70, 130, 180);
+  background-color: #6a5acd;
   position: absolute;
   margin-top: 100px;
   margin-left: 150px;
@@ -27,10 +27,6 @@ export const Titulo = styled.h1`
   :hover {
     color: #00bfff;
   }
-
-  @media (max-width: 765px) {
-    font-size: 26px;
-  }
 `;
 
 export const Pesquisar = styled.input`
@@ -40,7 +36,7 @@ export const Pesquisar = styled.input`
   font-size: 15px;
   background-color: #4169e1;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   padding-left: 15px;
   outline: 0;
 
@@ -67,64 +63,24 @@ export const Cards = styled.div`
   margin-top: 16px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 10px;
 `;
 
-export const Card = styled.div`
+export interface Props {
+  shadowColor?: string;
+}
+
+export const Card = styled.div<Props>`
   width: 150px;
   height: 150px;
-  /* background-color: #4169e1; */
   border-radius: 20px;
   transition: 0.4s;
   cursor: pointer;
-  border: 1px solid black;
   background-color: ${(props) => props.color};
-  /* ${(props) =>
-    props.id === "anemo" &&
-    "background: rgb(117,195,170);background: linear-gradient(320deg, rgba(117,195,170,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "anemo5E" &&
-    "background: rgb(117,195,170);background: linear-gradient(320deg, rgba(117,195,170,1) 17%, rgba(249,168,37,1) 89%);"}
-
-  ${(props) =>
-    props.id === "pyro" &&
-    "background: rgb(217,19,5);background: linear-gradient(320deg, rgba(217,19,5,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "pyro5E" &&
-    "background: rgb(217,19,5);background: linear-gradient(320deg, rgba(217,19,5,1) 17%, rgba(249,168,37,1) 89%);"} 
-
-  ${(props) =>
-    props.id === "geo" &&
-    "background: rgb(245,181,50);background: linear-gradient(320deg, rgba(245,181,50,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "hydro" &&
-    "background: rgb(76,194,241);background: linear-gradient(320deg, rgba(76,194,241,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "dendro" &&
-    "background: rgb(162,197,63);background: linear-gradient(320deg, rgba(162,197,63,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "eletro" &&
-    "background: rgb(145,132,203);background: linear-gradient(320deg, rgba(145,132,203,1) 17%, rgba(109,23,186,1) 89%);"}
-  ${(props) =>
-    props.id === "cryo" &&
-    "background: rgb(137,236,246);background: linear-gradient(320deg, rgba(137,236,246,1) 17%, rgba(109,23,186,1) 89%);"} */
-
 
   :hover {
     scale: 1.05;
-    /* ${(props) =>
-      props.id === "anemo" && "box-shadow: 0px 10px 12px -4px #75c3aa;"}
-    ${(props) =>
-      props.id === "pyro" && "box-shadow: 0px 10px 12px -4px #d91305;"}
-    ${(props) =>
-      props.id === "geo" && "box-shadow: 0px 10px 12px -4px #f5b532;"}
-    ${(props) =>
-      props.id === "hydro" && "box-shadow: 0px 10px 12px -4px #4cc2f1;"}
-    ${(props) =>
-      props.id === "dendro" && "box-shadow: 0px 10px 12px -4px #a2c53f;"}
-    ${(props) =>
-      props.id === "eletro" && "box-shadow: 0px 12px 12px -4px #9184cb;"}
-    ${(props) =>
-      props.id === "cryo" && "box-shadow: 0px 10px 12px -4px #89ecf6;"} */
+    box-shadow: 0px 10px 12px -4px ${(props) => props.shadowColor};
   }
 
   @media (max-width: 1190px) {
@@ -153,40 +109,6 @@ export const Personagem = styled.img`
   @media (max-width: 1190px) {
     max-width: 66px;
   }
-
-  /* @media (max-width: 1010px) {
-    max-width: 800px;
-  }
-
-  @media (max-width: 900px) {
-    max-width: 700px;
-  }
-
-  @media (max-width: 830px) {
-    max-width: 650px;
-  }
-
-  @media (max-width: 765px) {
-    max-width: 600px;
-    margin-top: 900px;
-  }
-
-  @media (max-width: 730px) {
-    max-width: 550px;
-  }
-
-  @media (max-width: 690px) {
-    max-width: 500px;
-  }
-
-  @media (max-width: 630px) {
-    max-width: 450px;
-  }
-
-  @media (max-width: 590px) {
-    max-width: 450px;
-    margin-top: 900px;
-  } */
 `;
 
 export const Alinhamento = styled.p`

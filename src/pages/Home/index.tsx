@@ -4,7 +4,6 @@ import {
   Caixa,
   Cards,
   Card,
-  // Textos,
   Alinhamento,
   Text,
   Pesquisar,
@@ -16,7 +15,9 @@ import { lista } from "../../config/logica";
 export const HomePage = () => {
   const [pesquisa, setPesquisa] = useState("");
 
-  const handleChangePesquisa = (event: { target: { value: React.SetStateAction<string>; }; }) => {
+  const handleChangePesquisa = (event: {
+    target: { value: React.SetStateAction<string> };
+  }) => {
     setPesquisa(event.target.value);
   };
 
@@ -39,7 +40,11 @@ export const HomePage = () => {
       <Cards>
         {listaOrdenada.map((item) => {
           return (
-            <Card  key={item.name} color={item.ColorCard}>
+            <Card
+              key={item.name}
+              color={item.ColorCard}
+              shadowColor={item.ColorShadow}
+            >
               <Alinhamento>
                 <Text>
                   <Icon color={item.color} src={item.element} />

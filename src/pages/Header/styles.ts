@@ -7,13 +7,22 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   min-height: 10vh;
-  background-color: rgb(70, 130, 180);
+  background-color: #6a5acd;
 `;
 
-export const Logo = styled.img`
-  width: 70px;
-  height: 70px;
-  margin: 5px;
+export const Logo = styled.h1`
+  display: flex;
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+  border: 1px solid black;
+
+  :hover {
+    color: #00bfff;
+    scale: 1.2;
+  }
 `;
 
 export const Rotas = styled.div`
@@ -37,7 +46,7 @@ export const Rotas = styled.div`
   }
 `;
 
-export const Outro = styled.a`
+export const Discord = styled.a`
   user-select: none;
   text-decoration: none;
   font-size: 25px;
