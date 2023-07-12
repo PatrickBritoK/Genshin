@@ -10,7 +10,7 @@ import {
   Personagem,
 } from "./styles";
 import { Icon } from "../../components/icons/stylesIcons";
-import { lista } from "../../config/logica";
+import { lista } from "../../json/list";
 
 export const HomePage = () => {
   const [pesquisa, setPesquisa] = useState("");
