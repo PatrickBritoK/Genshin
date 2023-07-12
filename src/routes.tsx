@@ -1,11 +1,11 @@
-import React, { Children } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import { HomePage } from "./pages/Home";
 import { Sobre } from "./pages/Sobre";
 import { Header } from "./pages/Header";
 import { Contatos } from "./pages/Contatos/index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Lojas } from "./pages/Lojas";
+import { EmContrucao } from "./pages/Lojas";
 
 import { GlobalStyle } from "./components/global/stylesGlobal";
 
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         element: <Contatos />,
       },
       {
-        path: "lojas",
-        element: <Lojas />,
+        path: "EmContrucao",
+        element: <EmContrucao />,
       },
     ],
   },

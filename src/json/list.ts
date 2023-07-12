@@ -2,6 +2,7 @@ import { Cores, ColorCard, ColorShadow } from "../enums/styles";
 
 export const lista = [
   {
+    id: 5,
     name: "Albedo",
     image: "/personagens/Albedo.png",
     element: "/elements/geo.png",
@@ -10,6 +11,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Alhaitham",
     image: "/personagens/Alhaitham.png",
     element: "/elements/dendro.png",
@@ -18,6 +20,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "Aloy",
     image: "/personagens/Aloy.png",
     element: "/elements/cryo.png",
@@ -26,6 +29,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Amber",
     image: "/personagens/Amber.png",
     element: "/elements/pyro.png",
@@ -34,6 +38,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Ayaka",
     image: "/personagens/Ayaka.png",
     element: "/elements/cryo.png",
@@ -42,6 +47,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Ayato",
     image: "/personagens/Ayato.png",
     element: "/elements/cryo.png",
@@ -50,6 +56,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Barbara",
     image: "/personagens/Barbara.png",
     element: "/elements/hydro.png",
@@ -58,6 +65,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Beidou",
     image: "/personagens/Beidou.png",
     element: "/elements/electro.png",
@@ -66,6 +74,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Bennett",
     image: "/personagens/Bennett.png",
     element: "/elements/pyro.png",
@@ -74,6 +83,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Candace",
     image: "/personagens/Candace.png",
     element: "/elements/hydro.png",
@@ -82,6 +92,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Childe",
     image: "/personagens/Childe.png",
     element: "/elements/hydro.png",
@@ -90,6 +101,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Chongyun",
     image: "/personagens/Chongyun.png",
     element: "/elements/cryo.png",
@@ -98,6 +110,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Collei",
     image: "/personagens/Collei.png",
     element: "/elements/dendro.png",
@@ -106,6 +119,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "Cyno",
     image: "/personagens/Cyno.png",
     element: "/elements/electro.png",
@@ -130,6 +144,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Diona",
     image: "/personagens/Diona.png",
     element: "/elements/cryo.png",
@@ -138,6 +153,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Dori",
     image: "/personagens/Dori.png",
     element: "/elements/electro.png",
@@ -146,6 +162,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Eula",
     image: "/personagens/Eula.png",
     element: "/elements/cryo.png",
@@ -154,6 +171,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Faruzan",
     image: "/personagens/Faruzan.png",
     element: "/elements/anemo.png",
@@ -162,6 +180,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Fischl",
     image: "/personagens/Fischl.png",
     element: "/elements/electro.png",
@@ -170,6 +189,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Ganyu",
     image: "/personagens/Ganyu.png",
     element: "/elements/cryo.png",
@@ -178,6 +198,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Gorou",
     image: "/personagens/Gorou.png",
     element: "/elements/geo.png",
@@ -186,6 +207,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Heizou",
     image: "/personagens/Heizou.png",
     element: "/elements/anemo.png",
@@ -194,6 +216,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Hu Tao",
     image: "/personagens/Hu Tao.png",
     element: "/elements/pyro.png",
@@ -202,6 +225,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Itto",
     image: "/personagens/Itto.png",
     element: "/elements/geo.png",
@@ -210,6 +234,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Jean",
     image: "/personagens/Jean.png",
     element: "/elements/anemo.png",
@@ -218,6 +243,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Kaeya",
     image: "/personagens/Kaeya.png",
     element: "/elements/cryo.png",
@@ -226,6 +252,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Kazuha",
     image: "/personagens/Kazuha.png",
     element: "/elements/anemo.png",
@@ -234,6 +261,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Keqing",
     image: "/personagens/Keqing.png",
     element: "/elements/electro.png",
@@ -242,6 +270,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Klee",
     image: "/personagens/Klee.png",
     element: "/elements/pyro.png",
@@ -250,6 +279,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Kokomi",
     image: "/personagens/Kokomi.png",
     element: "/elements/hydro.png",
@@ -258,6 +288,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Kuki Shinobu",
     image: "/personagens/Kuki Shinobu.png",
     element: "/elements/electro.png",
@@ -266,6 +297,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Layla",
     image: "/personagens/Layla.png",
     element: "/elements/cryo.png",
@@ -274,6 +306,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Lisa",
     image: "/personagens/Lisa.png",
     element: "/elements/electro.png",
@@ -282,6 +315,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Mika",
     image: "/personagens/Mika.png",
     element: "/elements/cryo.png",
@@ -290,6 +324,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Mona",
     image: "/personagens/Mona.png",
     element: "/elements/hydro.png",
@@ -298,6 +333,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Nahida",
     image: "/personagens/Nahida.png",
     element: "/elements/dendro.png",
@@ -306,6 +342,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "Nilou",
     image: "/personagens/Nilou.png",
     element: "/elements/hydro.png",
@@ -314,6 +351,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Ningguang",
     image: "/personagens/Ningguang.png",
     element: "/elements/geo.png",
@@ -322,6 +360,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Noelle",
     image: "/personagens/Noelle.png",
     element: "/elements/geo.png",
@@ -330,6 +369,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Qiqi",
     image: "/personagens/Qiqi.png",
     element: "/elements/cryo.png",
@@ -338,6 +378,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Raiden",
     image: "/personagens/Raiden.png",
     element: "/elements/electro.png",
@@ -346,6 +387,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Razor",
     image: "/personagens/Razor.png",
     element: "/elements/electro.png",
@@ -354,6 +396,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Rosaria",
     image: "/personagens/Rosaria.png",
     element: "/elements/cryo.png",
@@ -362,6 +405,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Sara",
     image: "/personagens/Sara.png",
     element: "/elements/electro.png",
@@ -370,6 +414,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "Sayu",
     image: "/personagens/Sayu.png",
     element: "/elements/anemo.png",
@@ -378,6 +423,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Shenhe",
     image: "/personagens/Shenhe.png",
     element: "/elements/cryo.png",
@@ -386,6 +432,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowCryo,
   },
   {
+    id: 5,
     name: "Sucrose",
     image: "/personagens/Sucrose.png",
     element: "/elements/anemo.png",
@@ -394,6 +441,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Thoma",
     image: "/personagens/Thoma.png",
     element: "/elements/pyro.png",
@@ -402,6 +450,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Tighnari",
     image: "/personagens/Tighnari.png",
     element: "/elements/dendro.png",
@@ -410,6 +459,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "T(Anemo)",
     image: "/personagens/Traveler.png",
     element: "/elements/anemo.png",
@@ -418,6 +468,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "T(Dendro)",
     image: "/personagens/Traveler.png",
     element: "/elements/dendro.png",
@@ -426,6 +477,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "T(Electro)",
     image: "/personagens/Traveler.png",
     element: "/elements/electro.png",
@@ -434,6 +486,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowElectro,
   },
   {
+    id: 5,
     name: "T(Geo)",
     image: "/personagens/Traveler.png",
     element: "/elements/geo.png",
@@ -442,6 +495,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Venti",
     image: "/personagens/Venti.png",
     element: "/elements/anemo.png",
@@ -450,6 +504,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Wanderer",
     image: "/personagens/Wanderer.png",
     element: "/elements/anemo.png",
@@ -458,6 +513,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Xiangling",
     image: "/personagens/Xiangling.png",
     element: "/elements/pyro.png",
@@ -466,6 +522,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Xiao",
     image: "/personagens/Xiao.png",
     element: "/elements/anemo.png",
@@ -474,6 +531,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowAnemo,
   },
   {
+    id: 5,
     name: "Xingqiu",
     image: "/personagens/Xingqiu.png",
     element: "/elements/hydro.png",
@@ -482,6 +540,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Xinyan",
     image: "/personagens/Xinyan.png",
     element: "/elements/pyro.png",
@@ -490,6 +549,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Yae Miko",
     image: "/personagens/Yae Miko.png",
     element: "/elements/electro.png",
@@ -506,6 +566,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Yaoyao",
     image: "/personagens/Yaoyao.png",
     element: "/elements/dendro.png",
@@ -514,6 +575,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "Yelan",
     image: "/personagens/Yelan.png",
     element: "/elements/hydro.png",
@@ -522,6 +584,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowHydro,
   },
   {
+    id: 5,
     name: "Yoimiya",
     image: "/personagens/Yoimiya.png",
     element: "/elements/pyro.png",
@@ -530,6 +593,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowPyro,
   },
   {
+    id: 5,
     name: "Yun Jin",
     image: "/personagens/Yun Jin.png",
     element: "/elements/geo.png",
@@ -538,6 +602,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Zhongli",
     image: "/personagens/Zhongli.png",
     element: "/elements/geo.png",
@@ -546,6 +611,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowGeo,
   },
   {
+    id: 5,
     name: "Baizhu",
     image: "/personagens/Baizhu.png",
     element: "/elements/dendro.png",
@@ -554,6 +620,7 @@ export const lista = [
     ColorShadow: ColorShadow.shadowDendro,
   },
   {
+    id: 5,
     name: "Kaveh",
     image: "/personagens/Kaveh.png",
     element: "/elements/dendro.png",
