@@ -45,18 +45,6 @@ export const Pesquisar = styled.input`
   }
 `;
 
-export const Textos = styled.p`
-  color: white;
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  margin-right: 30px;
-
-  @media (max-width: 765px) {
-    font-size: 16px;
-  }
-`;
-
 export const Cards = styled.div`
   display: flex;
   gap: 20px;

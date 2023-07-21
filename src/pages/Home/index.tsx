@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Titulo,
-  Caixa,
-  Cards,
-  Card,
-  Alinhamento,
-  Text,
-  Pesquisar,
-  Personagem,
-} from "./styles";
+import * as S from "./styles";
 import { Icon } from "../../components/icons/stylesIcons";
 import { lista } from "../../json/list";
 
@@ -30,32 +21,32 @@ export const HomePage = () => {
   );
 
   return (
-    <Caixa>
-      <Titulo>Bem vindo</Titulo>
-      <Pesquisar
+    <S.Caixa>
+      <S.Titulo>Bem vindo</S.Titulo>
+      <S.Pesquisar
         placeholder="Pesquisar por Personagem"
         value={pesquisa}
         onChange={handleChangePesquisa}
       />
-      <Cards>
+      <S.Cards>
         {listaOrdenada.map((item) => {
           return (
-            <Card
+            <S.Card
               key={item.name}
               color={item.ColorCard}
               shadowColor={item.ColorShadow}
             >
-              <Alinhamento>
+              <S.Alinhamento>
                 <Text>
                   <Icon color={item.color} src={item.element} />
                   {item.name}
                 </Text>
-              </Alinhamento>
+              </S.Alinhamento>
               <Personagem src={item.image} />
-            </Card>
+            </S.Card>
           );
         })}
-      </Cards>
-    </Caixa>
+      </S.Cards>
+    </S.Caixa>
   );
 };
