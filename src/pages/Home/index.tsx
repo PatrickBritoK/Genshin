@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import * as S from "./styles";
 import { Icon } from "../../components/icons/stylesIcons";
-import { lista } from "../../json/list";
+import { listM } from "../../json/mondstadt"
+import { listL } from "../../json/liyue"
+import { listI } from "../../json/inazuma"
+import { listS } from "../../json/sumeru"
 
 export const HomePage = () => {
   const [pesquisa, setPesquisa] = useState("");
@@ -11,6 +14,8 @@ export const HomePage = () => {
   }) => {
     setPesquisa(event.target.value);
   };
+
+  const mergedLista = [...listM, ...listL, ...listI, ...listS];
 
   const listaFiltrada = lista.filter((item) =>
     item.name.toLowerCase().includes(pesquisa.toLowerCase())
