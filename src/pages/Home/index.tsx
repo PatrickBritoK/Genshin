@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import * as S from "./styles";
 import { Icon } from "../../components/icons/stylesIcons";
-import { listM } from "../../json/mondstadt"
-import { listL } from "../../json/liyue"
-import { listI } from "../../json/inazuma"
-import { listS } from "../../json/sumeru"
+import { listM } from "../../json/mondstadt/listMondstadt";
+import { listL } from "../../json/liyue/listLiyue";
+import { listI } from "../../json/inazuma/listInazuma";
+import { listS } from "../../json/sumeru/listSumeru";
 
 export const HomePage = () => {
   const [pesquisa, setPesquisa] = useState("");
@@ -17,7 +17,7 @@ export const HomePage = () => {
 
   const mergedLista = [...listM, ...listL, ...listI, ...listS];
 
-  const listaFiltrada = lista.filter((item) =>
+  const listaFiltrada = mergedLista.filter((item) =>
     item.name.toLowerCase().includes(pesquisa.toLowerCase())
   );
 
@@ -26,6 +26,7 @@ export const HomePage = () => {
   );
 
   return (
+    <S.MainContainer>
     <S.Caixa>
       <S.Titulo>Bem vindo</S.Titulo>
       <S.Pesquisar
@@ -42,16 +43,18 @@ export const HomePage = () => {
               shadowColor={item.ColorShadow}
             >
               <S.Alinhamento>
-                <Text>
+                <S.Text>
                   <Icon color={item.color} src={item.element} />
                   {item.name}
-                </Text>
+                </S.Text>
               </S.Alinhamento>
-              <Personagem src={item.image} />
+              <S.Personagem src={item.image} />
             </S.Card>
           );
         })}
       </S.Cards>
     </S.Caixa>
+    <S.Footer/>
+    </S.MainContainer>
   );
 };

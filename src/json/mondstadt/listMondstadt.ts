@@ -1,4 +1,4 @@
-import { Cores, ColorCard, ColorShadow } from "../enums/styles";
+import { Cores, ColorCard, ColorShadow } from "../../enums/styles";
 
 export const listM = [
   {

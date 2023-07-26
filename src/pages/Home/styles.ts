@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
+export const MainContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+`;
+
 export const Caixa = styled.div`
-  width: 1000px;
+  width: 75vw;
   height: auto;
   background-color: #6a5acd;
-  position: absolute;
   margin-top: 100px;
   margin-left: 150px;
   margin-right: 150px;
@@ -15,6 +20,7 @@ export const Caixa = styled.div`
   padding-bottom: 15px;
   text-align: center;
   justify-content: center;
+  flex: 1;
 `;
 
 export const Titulo = styled.h1`
@@ -59,7 +65,7 @@ export interface Props {
 }
 
 export const Card = styled.div<Props>`
-  width: 150px;
+  width: 12vw;
   height: 150px;
   border-radius: 20px;
   transition: 0.4s;
@@ -110,4 +116,14 @@ export const Text = styled.p`
   margin: 0;
   display: flex;
   justify-content: space-around;
+`;
+
+export const Footer = styled.div`
+  width: 100%;
+  height: 15vh;
+  background-color: #6a5acd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 `;
