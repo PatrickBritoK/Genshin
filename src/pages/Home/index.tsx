@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as S from "./styles";
+import { Footer } from "../../components/styles/stylesComponent"
 import { Icon } from "../../components/icons/stylesIcons";
 import { listM } from "../../json/mondstadt/listMondstadt";
 import { listL } from "../../json/liyue/listLiyue";
@@ -54,7 +55,7 @@ export const HomePage = () => {
         })}
       </S.Cards>
     </S.Caixa>
-    <S.Footer/>
+    <Footer/>
     </S.MainContainer>
   );
 };
