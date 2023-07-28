@@ -11,8 +11,8 @@ export const Caixa = styled.div`
   height: auto;
   background-color: #6a5acd;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 23vh;
+  margin-right: 23vw;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -71,20 +71,17 @@ export const Card = styled.div<Props>`
   transition: 0.4s;
   cursor: pointer;
   background-color: ${(props) => props.color};
+  margin-top: 15px;
+  margin-bottom: 25px;
 
   :hover {
     scale: 1.05;
     box-shadow: 0px 10px 12px -4px ${(props) => props.shadowColor};
   }
-
-  @media (max-width: 1040px) {
-    width: 14vw;
-    height: 14vw;
-  }
 `;
 
 export const Personagem = styled.img`
-  width: 6.90vw;
+  width: 95px;
 `;
 
 export const Alinhamento = styled.p`

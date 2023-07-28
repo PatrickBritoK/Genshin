@@ -46,10 +46,12 @@ export const HomePage = () => {
               <S.Alinhamento>
                 <S.Text>
                   <Icon color={item.color} src={item.element} />
-                  {item.name}
                 </S.Text>
               </S.Alinhamento>
               <S.Personagem src={item.image} />
+              <S.Text>
+              {item.name}
+              </S.Text>
             </S.Card>
           );
         })}
