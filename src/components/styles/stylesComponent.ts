@@ -5,7 +5,13 @@ export const Footer = styled.div`
   height: 15vh;
   background-color: #6a5acd;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 70px;
+  align-items: center;
 `;
+
+export const TextF = styled.div`
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+`

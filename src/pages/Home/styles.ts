@@ -66,7 +66,7 @@ export interface Props {
 
 export const Card = styled.div<Props>`
   width: 12vw;
-  height: 150px;
+  height: 12vw;
   border-radius: 20px;
   transition: 0.4s;
   cursor: pointer;
@@ -77,32 +77,14 @@ export const Card = styled.div<Props>`
     box-shadow: 0px 10px 12px -4px ${(props) => props.shadowColor};
   }
 
-  @media (max-width: 1190px) {
-    width: 130px;
-    height: 130px;
-  }
-
-  @media (max-width: 1010px) {
-    width: 110px;
-    height: 110px;
-  }
-
-  @media (max-width: 900px) {
-    width: 90px;
-    height: 90px;
-  }
-
-  @media (max-width: 830px) {
-    flex-direction: column;
+  @media (max-width: 1040px) {
+    width: 14vw;
+    height: 14vw;
   }
 `;
 
 export const Personagem = styled.img`
-  width: 86px;
-
-  @media (max-width: 1190px) {
-    max-width: 66px;
-  }
+  width: 6.90vw;
 `;
 
 export const Alinhamento = styled.p`
@@ -110,7 +92,7 @@ export const Alinhamento = styled.p`
 `;
 
 export const Text = styled.p`
-  font-size: 18px;
+  font-size: 1.5vw;
   color: white;
   text-align: center;
   margin: 0;

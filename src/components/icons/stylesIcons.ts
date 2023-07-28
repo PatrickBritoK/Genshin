@@ -5,7 +5,7 @@ type Props = {
 };
 
 export const Icon = styled.img<Props>`
-  width: 32px;
+  width: 2.67vw;
   transition: 0.4s;
   border-radius: 50%;
   background-color: #6a5acd;

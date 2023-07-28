@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as S from "./styles";
-import { Footer } from "../../components/styles/stylesComponent"
+import { Footer } from "../../components/styles/index"
 import { Icon } from "../../components/icons/stylesIcons";
 import { listM } from "../../json/mondstadt/listMondstadt";
 import { listL } from "../../json/liyue/listLiyue";
